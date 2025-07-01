@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.box1{
+    width: 1000px;
+    height: 825px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 img{
+    width: 500px;
+    height: 500px;
+}
+.box2{
+    width: 550px;
+    height: 825px;
+    background-color: black;
+}
