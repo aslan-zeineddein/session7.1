@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 @media(max-width:600px) {
-.box1{
-    border: 1px solid black;
-    width: 0px;
-    overflow: hidden;
-}
 .box2{
     width: 600px;
     height: 825px;
@@ -20,7 +15,7 @@ body{
     color: white;
 }
 .box1{
-    width: 1000px;
+    width: 900px;
     height: 825px;
     background-color: blue;
     display: flex;
@@ -28,15 +23,43 @@ body{
     align-items: center;
 }
 .box1 img{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 600px;
 }
 .box2{
     width: 600px;
     height: 825px;
     background-color: black;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box2>div img{
-    width: 150px;
-    background-color: black;
+    width: 300px;
+    margin: 10px 0px;
+}
+.box2>div>form input{
+width: 300px;
+padding: 5px;
+margin: 5px 0px;
+background-color: black;
+}
+.box2 button{
+    width: 300px;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.box2 h5{
+text-align: center;
+margin: 10px 0px;
+}
+#log{
+    margin: 30px 0px;
+}
+#log a{
+    color: blue;
 }
