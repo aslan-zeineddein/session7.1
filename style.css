@@ -3,8 +3,21 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@media(max-width:600px) {
+.box1{
+    border: 1px solid black;
+    width: 0px;
+    overflow: hidden;
+}
+.box2{
+    width: 600px;
+    height: 825px;
+    background-color: black;
+}
+}
 body{
     display: flex;
+    color: white;
 }
 .box1{
     width: 1000px;
@@ -19,7 +32,11 @@ body{
     height: 500px;
 }
 .box2{
-    width: 550px;
+    width: 600px;
     height: 825px;
+    background-color: black;
+}
+.box2>div img{
+    width: 150px;
     background-color: black;
 }
