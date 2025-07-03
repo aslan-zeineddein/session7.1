@@ -3,33 +3,48 @@
     padding: 0px;
     box-sizing: border-box;
 }
-@media(max-width:600px) {
-.box2{
-    width: 600px;
-    height: 825px;
+@media screen and (min-width: 600px) {
+body div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: black;
+ }
+
+    
+.box1 img{
+    visibility: visible;
+    min-width: 800px;
+    height: 700px;
+ 
+   
+}
+
+.box2{
+    width: 500px;
+    height: 825px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  
 }
 }
 body{
     display: flex;
     color: white;
-}
-.box1{
-    width: 900px;
-    height: 825px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: black;
+  
 }
 .box1 img{
-    width: 700px;
-    height: 600px;
+    max-width: 1px;
 }
+
+
 .box2{
     width: 600px;
     height: 825px;
-    background-color: black;
+   
      display: flex;
     flex-direction: column;
     justify-content: center;
