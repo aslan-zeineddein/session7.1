@@ -13,7 +13,7 @@ body div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:var(--clr-body:);
+    background-color:var(--clr-body);
  }
 
     
@@ -69,6 +69,7 @@ background-color: var(--clr-body);
     width: 300px;
     padding: 5px;
     background-color:var(--clr-letter);
+    color: var(--clr-word);
     border-radius: 10px;
     margin: 10px 0px;
 }
@@ -82,4 +83,5 @@ margin: 10px 0px;
 }
 #log a{
     color:var(--clr-letter);
+    font-size: small;
 }
